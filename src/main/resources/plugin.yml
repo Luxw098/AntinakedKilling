@@ -1,0 +1,11 @@
+name: AntiNakedKilling
+version: '1.3'
+main: uk.sleepylux.antinakedKilling.AntiNakedKilling
+api-version: '1.21'
+prefix: AntinakedKilling
+authors: [ TirednHigh ]
+commands:
+  ankreload:
+    description: Reload the plugins configuration file
+    usage: /ankreload
+    permission: antinakedkilling.reload

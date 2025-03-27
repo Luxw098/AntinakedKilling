@@ -1,0 +1,32 @@
+# Language Configuration
+protectedJoinMessage: "&2You are protected"
+protectedAttackMessage: "&4You cannot attack &6{player}&4 as they do not have &3Dia+&4 Gear"
+
+# {player} - The victims name
+# {item] - The picked-up Items name
+# {timeout} - The timeout set below
+vulnerableJoinMessage: "&4You are not protected"
+vulnerableAttackMessage: "&4You are no longer protected due to attacking &6{player}"
+vulnerablePickupMessage: "&4You are no longer protected due to picking &6{item}"
+vulnerableTimeoutMessage: "&4You are no longer protected due to &6{timeout}m&4 passing from your last respawn"
+
+configReloadMessage: "Reloaded Config.yml for {player}"
+
+# Plugin Configuration
+timeoutInMins: 30
+
+protectAgainstPlayers: true
+protectAgainstMobs: false
+
+BannedItems:
+  - DIAMOND_HELMET
+  - DIAMOND_CHESTPLATE
+  - DIAMOND_LEGGINGS
+  - DIAMOND_BOOTS
+  - DIAMOND_SWORD
+  - NETHERITE_HELMET
+  - NETHERITE_CHESTPLATE
+  - NETHERITE_LEGGINGS
+  - NETHERITE_BOOTS
+  - NETHERITE_SWORD
+  - ELYTRA
