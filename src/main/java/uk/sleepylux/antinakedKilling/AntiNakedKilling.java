@@ -8,7 +8,6 @@ import uk.sleepylux.antinakedKilling.commands.Reload;
 import uk.sleepylux.antinakedKilling.events.OnDamage;
 import uk.sleepylux.antinakedKilling.events.OnPickup;
 import uk.sleepylux.antinakedKilling.events.OnRespawn;
-import uk.sleepylux.antinakedKilling.registries.NakedRegistry;
 import uk.sleepylux.antinakedKilling.utility.BannedItems;
 
 
@@ -24,10 +23,5 @@ public final class AntiNakedKilling extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new OnDamage(this), this);
 
         Objects.requireNonNull(getCommand("ankreload")).setExecutor(new Reload(this));
-    }
-
-    @Override
-    public void onDisable() {
-        NakedRegistry.shutdown();
     }
 }

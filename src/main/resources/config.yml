@@ -8,13 +8,10 @@ protectedAttackMessage: "&4You cannot attack &6{player}&4 as they do not have &3
 vulnerableJoinMessage: "&4You are not protected"
 vulnerableAttackMessage: "&4You are no longer protected due to attacking &6{player}"
 vulnerablePickupMessage: "&4You are no longer protected due to picking &6{item}"
-vulnerableTimeoutMessage: "&4You are no longer protected due to &6{timeout}m&4 passing from your last respawn"
 
 configReloadMessage: "Reloaded Config.yml for {player}"
 
 # Plugin Configuration
-timeoutInMins: 30
-
 protectAgainstPlayers: true
 protectAgainstMobs: false
 
